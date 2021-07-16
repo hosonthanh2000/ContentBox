@@ -1,0 +1,36 @@
+$background_button :#00d4ff;
+$backgroundBlack_button:#2d2e2e;
+
+
+
+.button_black{
+    width: auto;
+    height: auto;
+    background-color: $backgroundBlack_button;
+    border: solid 1px white;
+    border-radius: 10px;
+    cursor: pointer;
+    &:active{
+        background-color: yellowgreen;
+    }
+    span{
+        color: white;
+        font-size: 2rem;
+    }
+}
+
+.button{
+    width: auto;
+    height: auto;
+    background-color: $background_button;
+    border: solid 1px white;
+    border-radius: 10px;
+    cursor: pointer;
+    &:active{
+        background-color: yellowgreen;
+    }
+    span{
+        color: white;
+        font-size: 2rem;
+    }
+}

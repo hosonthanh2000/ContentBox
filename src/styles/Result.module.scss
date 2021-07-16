@@ -1,0 +1,36 @@
+.pannel{
+    background-color: black;
+    width: 100%;
+    height: auto;
+    .title{
+        width: 100%;
+        height: auto;
+        background:#272c34;
+        span{
+            font-size: 1rem;
+        }
+        div{
+            color: white;
+        }
+    }
+    .content{
+        width: 100%;
+        height: auto;
+        background: #dbf0f5;
+
+    }
+}
+
+.mr_5{
+    padding-left: 1.5rem;
+}
+
+.property{
+    color: #4141e8;
+}
+
+
+.value {
+    padding: 5px;
+    color: #5fe7a3;
+}
